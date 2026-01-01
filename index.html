@@ -5,15 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kitchen Multi Timer</title>
     <style>
-        body { font-family: Arial, sans-serif; text-align: center; padding: 50px; background: #f0f0f0; }
-        h1 { color: #333; }
-        p { font-size: 18px; color: #666; }
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            font-family: 'Arial', sans-serif;
+        }
+        .button {
+            padding: 20px 50px;
+            font-size: 28px;
+            font-weight: bold;
+            color: white;
+            background: linear-gradient(45deg, #ff6b6b, #feca57);
+            border: none;
+            border-radius: 50px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .button:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+            background: linear-gradient(45deg, #ff9a9e, #fad0c4);
+        }
+        .button:active {
+            transform: translateY(0);
+        }
     </style>
 </head>
 <body>
-    <h1>Kitchen Multi Timer & Stopwatch</h1>
-    <p>멀티 키친 타이머 앱</p>
-    <p>Google Play와 App Store에서 곧 만나요!</p>
-    <p>개발자: Jinnouchi4796</p>
+    <a href="https://sites.google.com/view/dolvexlabs/" class="button" target="_blank">
+        Dolvex Labs 방문하기
+    </a>
 </body>
 </html>
